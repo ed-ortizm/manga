@@ -19,7 +19,7 @@ output_directory = parser.get("directories", "output")
 subprocess.call(
     [
         "rsync",
-        "--dry-run",
+#        "--dry-run",
         flag,
         "--progress",
         "--password-file",
