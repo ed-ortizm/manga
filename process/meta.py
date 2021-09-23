@@ -9,7 +9,7 @@ import numpy as np
 
 ###############################################################################
 parser = ConfigParser(interpolation=ExtendedInterpolation())
-parser.read('process.ini')
+parser.read('meta.ini')
 ############################################################
 # to import from src since I'm in a difrent leaf of a the tree structure
 # work_directory = parser.get("directories", "work")

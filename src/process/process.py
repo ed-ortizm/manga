@@ -2,6 +2,13 @@ from astropy.io import fits
 import numpy as np
 import scipy.constants as cst
 ###############################################################################
+class MetaData:
+    def __init__(self):
+        pass
+
+    def set_table(self):
+        pass
+###############################################################################
 class MangaProcess:
     def __init__(self):
         pass
